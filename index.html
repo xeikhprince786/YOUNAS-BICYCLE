@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        * {
+            /* font-family: "Playfair Display", serif; */
+        }
+
+        body {
+            background: url('img/nnn.jpg');
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+            background-repeat: 1;
+            
+        }
+
+        .left {
+            position: fixed;
+            left: 60px;
+            top: 20px;
+            /* border: 2px solid red; */
+            /* padding: 2px 3px; */
+            display: inline-block;
+        }
+
+        .left img {
+            width: 145px;
+            height: 88px;
+            filter: invert(100%);
+            border: 2px transparent;
+            border-radius: 90px;
+            
+        }
+        .left div{
+            display: inline-block;
+            font-size: 23px;
+            color: white;
+            margin-left: 2%;
+            /* color: #a76363; */
+        }
+        .mid {
+            display: block;
+            width: 58%;
+            margin: 30px auto;
+            /* border: 2px solid yellow; */
+        }
+
+        .navbar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+        }
+
+        .navbar li a {
+            color: #a76363;
+            /* color: white; */
+            text-decoration: none;
+            padding: 34px 23px;
+        }
+
+        .navbar li a:hover {
+            color: rgb(0, 0, 0);
+            text-decoration: underline;
+        }
+
+        .right {
+            position: fixed;
+            right: 60px;
+            top: 20px;
+            /* border: 2px solid yellow; */
+
+        }
+
+        .btn {
+            margin: 15px 0px;
+            padding: 9px 8px;
+            color: #a76363;
+            background-color: transparent;
+            border: 2px solid #604949;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .data {
+            position: absolute;
+            /* border: 2px solid red; */
+            /* padding: 69px 200px; */
+            width: 58%;
+            margin: 73px 136px;
+        }
+
+        .data h1 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 60px;
+        }
+
+        .sectail {
+            color: #a76363;
+        }
+
+        .sechead {
+            line-height: 0%;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: white;
+        }
+
+        .king {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 24px;
+            line-height: 64px;
+            margin-bottom: 0px;
+            color: white;
+        }
+
+        .queen {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 24px;
+            line-height: 0%;
+            margin-top: 0px;
+            color: white;
+        }
+
+        .order {
+            margin: 405px 136px;
+            padding: 18px 64px;
+            color: white;
+            border: 2px solid #a76363;
+            background-color: #a76363;
+            cursor: pointer;
+            margin-right: 0%;
+        }
+
+        .order:hover {
+            background-color: white;
+            color: #a76363;
+        }
+
+        .learn {
+            margin: 405px 136px;
+            padding: 18px 64px;
+            color: white;
+            /* border: 2px solid #a76363; */
+            background: transparent;
+            cursor: pointer;
+            margin-left: 1%;
+            border-color: transparent;
+        }
+
+        .learn:hover {
+            background-color: white;
+            color: #a76363;
+            /* border-radius: 9px; */
+        }
+
+        .endy{
+            color: white;
+            /* border: 2px solid red; */
+            position: fixed;
+            left: 60px;
+            bottom: 3px;
+            text-align: center;
+            width: fit-content;
+        }
+        .endy h4{
+            /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+            font-size: 13px;
+        }
+        .endx{
+            color: white;
+            /* border: 2px solid red; */
+            position: fixed;
+            right: 179px;
+            bottom: 7px;
+            text-align: center;
+            width: fit-content;
+        }
+        .endx h4{
+            /* font-family: 'Courier New', Courier, monospace; */
+            font-size: 13px;
+        }
+        .endz{
+            color: white;
+            /* border: 2px solid red; */
+            position: fixed;
+            right: 54px;
+            bottom: 6px;
+            text-align: center;
+            width: fit-content;
+        }
+        .endz h4{
+            /* font-family: 'Courier New', Courier, monospace; */
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/yo.png.jpg" alt="">
+            <div>Younas Bicycle</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Coaches</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us now</button><button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="data">
+        <h1 class="sectail">Younas Bicycle <br>
+        </h1>
+        <h1 class="sechead">Mountain Bike Experts</h1>
+        <h2 class="king">Upgrade your skills to the next level.</h2>
+        <h2 class="queen">Start training with pro riders today!</h2>
+    </div>
+    <div class="end">
+        <button class="order">Order Now</button>
+        <button class="learn">Learn more</button>
+    </div>
+    <div class="endy">
+        <h4>2017 © Ajman Cycling Experts</h4>
+    </div>
+    <div class="endx">
+        <h4>+1 123 456 7890</h4>
+    </div>
+    <div class="endz">
+        <h4>hello@bicycle.com</h4>
+    </div>
+</body>
+</html>
